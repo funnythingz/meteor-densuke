@@ -2,19 +2,23 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "typescript-compiler": {},
-      "typescript-libs": {}
+      "router": {}
     },
     "packages": {
-      "typescript-compiler": {
-        "git": "https://github.com/orefalo/meteor-typescript-compiler.git",
-        "tag": "v0.7.6.3",
-        "commit": "9242d3f292223eb0272e51a36c21244196a80f3a"
+      "router": {
+        "git": "https://github.com/tmeasday/meteor-router.git",
+        "tag": "v0.5.4.1",
+        "commit": "d00e380dda2184b70e909fc4a0fb5358d602c586"
       },
-      "typescript-libs": {
-        "git": "https://github.com/orefalo/meteor-typescript-libs.git",
-        "tag": "v0.1.1",
-        "commit": "1d242844a3aec3fa461f4b66f4d56c2799f4ac8c"
+      "page-js-ie-support": {
+        "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
+        "tag": "v1.3.5",
+        "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
+      },
+      "HTML5-History-API": {
+        "git": "https://github.com/tmeasday/meteor-HTML5-History-API.git",
+        "tag": "v4.0.0",
+        "commit": "dc4965f1424cfca625ec3fbea17eace03f8e32c5"
       }
     }
   }

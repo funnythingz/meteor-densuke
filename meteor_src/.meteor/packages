@@ -7,6 +7,4 @@ standard-app-packages
 autopublish
 insecure
 preserve-inputs
-typescript-compiler
-typescript-libs
 underscore
