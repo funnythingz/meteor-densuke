@@ -3,5 +3,5 @@ Template.contents.heading = function () {
 }
 
 Meteor.Router.add({
-    '/': 'header'
+    '/header': 'header'
 });
